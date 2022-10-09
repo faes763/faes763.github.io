@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'ciel1two@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = 'whyyounoreal'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 127.0.0.1:5500; // TCP port to connect to / этот порт может отличаться у других провайдеров
+$mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('ciel1two@mail.ru'); // от кого будет уходить письмо?
 $mail->addAddress('faesiha163@mail.ru');     // Кому будет уходить письмо 
