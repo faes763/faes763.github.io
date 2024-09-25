@@ -14,11 +14,11 @@ let plus = document.querySelector('.plus');
 let minus = document.querySelector('.minus');
 plus.onclick = () => {
 	if (bet>=score) {
-	 plus.disabled = true;
-	}else {
-	 minus.disabled = false;
-	 bet +=10;
-	 document.querySelector('.bet').innerHTML = bet;
+		plus.disabled = true;
+	} else {
+		minus.disabled = false;
+		bet +=10;
+		document.querySelector('.bet').innerHTML = bet;
 	}
 }
 minus.onclick = () => {
